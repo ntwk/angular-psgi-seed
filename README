@@ -1,0 +1,10 @@
+INSTRUCTIONS
+
+Prior to running the application make sure you have the necessary
+front-end dependencies installed.
+
+    bower install
+
+Run the PSGI application
+
+    plackup -p 8000 -s Starman
