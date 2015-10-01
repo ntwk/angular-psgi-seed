@@ -6,7 +6,8 @@ experiments.
 
 PREREQUISITES
 
-A working knowledge of Perl, Plack/PSGI and AngularJS is required.
+A working knowledge of Perl, Plack/PSGI and AngularJS and Bower is
+required.
 
 INITIAL SETUP
 
