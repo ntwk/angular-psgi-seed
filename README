@@ -7,7 +7,10 @@ experiments.
 PREREQUISITES
 
 A working knowledge of Perl, Plack/PSGI and AngularJS and Bower is
-required.
+required.  cpanminus is the recommended tool for the installation of
+Perl module dependencies.  cpanminus is not part of Perl's core
+modules and is instead available via the App::cpanminus Perl module
+available on CPAN.
 
 INITIAL SETUP
 
@@ -27,7 +30,7 @@ front-end dependencies installed.
 
 Also, make sure the required Perl modules are installed.
 
-    cpan .
+    cpanm --installdeps .
 
 One all dependencies are succesfully Run the PSGI application.
 
