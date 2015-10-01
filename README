@@ -24,9 +24,10 @@ front-end dependencies installed.
 
     bower install
 
-Also, make sure that you have a working Perl as well the Plack and
-Text::Xslate Perl modules installed.
+Also, make sure the required Perl modules are installed.
 
-Run the PSGI application.
+    cpan .
+
+One all dependencies are succesfully Run the PSGI application.
 
     plackup -p 8000 -s Starman
