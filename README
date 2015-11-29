@@ -32,6 +32,6 @@ Also, make sure the required Perl modules are installed.
 
     cpanm --installdeps .
 
-One all dependencies are succesfully Run the PSGI application.
+Once all dependencies are successfully Run the PSGI application.
 
     plackup -p 8000 -s Starman
