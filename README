@@ -1,16 +1,15 @@
 ANGULAR-PSGI-SEED
 
 Boilerplate for serving an AngularJS app locally as a PSGI
-application.  This intended to help jump-start AngularJS projects and
-experiments.
+application.  The intent is to help jump-start your AngularJS projects
+and experiments.
 
 PREREQUISITES
 
-A working knowledge of Perl, Plack/PSGI and AngularJS and Bower is
-required.  cpanminus is the recommended tool for the installation of
-Perl module dependencies.  cpanminus is not part of Perl's core
-modules and is instead available via the App::cpanminus Perl module
-available on CPAN.
+A working knowledge of Perl, Plack/PSGI, AngularJS and Bower is
+required.  cpanminus is the recommended tool for installing any Perl
+module dependencies.  cpanminus is not distributed as part of Perl's
+core modules and is instead available on CPAN as App::cpanminus.
 
 INITIAL SETUP
 
@@ -28,7 +27,7 @@ front-end dependencies installed.
 
     bower install
 
-Also, make sure the required Perl modules are installed.
+Use cpanminus to make sure the required Perl modules are installed.
 
     cpanm --installdeps .
 
